@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="9dip"
+        android:text="CONTACT"
+        android:textStyle="bold"
+        android:paddingBottom="3dip"
+        android:textSize="13dip"  />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="4dip"
+        android:ems="5" />
+    
+
+    <TextView
+        android:id="@+id/textView3"
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:paddingLeft="9dip"
+        android:text="CABIN NO."
+        android:textStyle="bold"
+        android:paddingBottom="4dip"
+        android:textSize="13dip" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="4dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="4dip"
+        android:ems="5" />
+
+    <TextView
+        android:id="@+id/textView4"
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:paddingLeft="9dip"
+        android:text="OPEN HOUR (1)"
+        android:textStyle="bold"
+        android:paddingBottom="4dip"
+        android:textSize="13dip" />
+
+    <TextView
+        android:id="@+id/textView5"
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:paddingLeft="9dip"
+        android:text="DAY"
+        android:textStyle="bold"
+        android:paddingBottom="4dip"
+        android:textSize="11dip"  />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array1"
+        android:layout_marginTop="4dip"
+         android:paddingTop="5dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="5dip"
+       
+        android:prompt="@string/select1"
+        
+         />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:paddingLeft="9dip"
+        android:paddingTop="4dip"
+        android:text="TIME"
+        android:textSize="11dip"
+        android:textStyle="bold" />
+    
+     <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array2"
+        android:layout_marginTop="4dip"
+         android:paddingTop="5dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="5dip"
+       
+        android:prompt="@string/select2"
+        
+         />
+
+     <TextView
+         android:id="@+id/textView8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:paddingBottom="4dip"
+         android:paddingLeft="9dip"
+         android:paddingTop="4dip"
+         android:text="OPEN HOUR (2)"
+         android:textSize="13dip"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView9"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:paddingBottom="4dip"
+         android:paddingLeft="9dip"
+         android:paddingTop="4dip"
+         android:text="DAY"
+         android:textSize="11dip"
+         android:textStyle="bold" />
+
+      <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array1"
+        android:layout_marginTop="4dip"
+         android:paddingTop="5dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="5dip"
+       
+        android:prompt="@string/select1"
+        
+         />
+
+      <TextView
+          android:id="@+id/textView10"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="4dip"
+          android:paddingLeft="9dip"
+          android:paddingTop="4dip"
+          android:text="TIME"
+          android:textSize="11dip"
+          android:textStyle="bold" />
+      
+      <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array2"
+        android:layout_marginTop="4dip"
+         android:paddingTop="5dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="5dip"
+       
+        android:prompt="@string/select2"
+        
+         />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="6dip"
+          android:layout_marginTop="4dip"
+           android:paddingBottom="2dip"
+          android:text="UPDATE" />
+      
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingBottom="4dip"
+          android:paddingLeft="9dip"
+          android:paddingTop="4dip"
+          android:text=""
+          android:textSize="11dip"
+          android:textStyle="bold" />
+      
+</LinearLayout>

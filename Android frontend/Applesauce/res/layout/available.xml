@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="10dip"
+        android:text="STATUS"
+        android:textStyle="bold"
+        android:textSize="15dip" />
+    
+     <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array"
+        android:layout_marginTop="12dip"
+         android:paddingTop="15dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="10dip"
+       
+        android:prompt="@string/select"
+        
+         />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+         android:layout_marginLeft="6dip"
+         android:text="UPDATE" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:paddingTop="15dip"
+        android:paddingLeft="9dip"
+        android:paddingBottom="10dip"
+        android:textStyle="bold"
+        android:textSize="13dip"  />
+
+</LinearLayout>

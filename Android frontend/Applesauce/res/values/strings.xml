@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Applesauce</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="select">CHOOSE STATUS</string>
+
+    <string name="button_label">SUBMIT</string>
+    
+    
+    
+   
+    <string-array name="planets_array" size="13dip">
+        <item>Available</item>
+        <item>Unavailable</item>
+    </string-array>
+    
+    <string name="select1">CHOOSE OPEN HOUR</string>
+
+    <string name="button_label1">SUBMIT</string>
+    
+    
+    
+   
+    <string-array name="planets_array1" size="13dip">
+        <item>MON</item>
+         <item>TUE</item>
+          <item>WED</item>
+           <item>THUR</item>
+        <item>FRI</item>
+         <item>SAT</item>
+          <item>SUN</item>
+    </string-array>
+    
+    
+     <string name="select2">CHOOSE OPEN HOUR</string>
+
+    <string name="button_label2">SUBMIT</string>
+    
+    
+    
+   
+    <string-array name="planets_array2" size="13dip">
+        <item>7:00 - 8:00 AM</item>
+         <item>8:00 - 9:00 AM</item>
+         <item>9:00 - 10:00 AM</item>
+         <item>10:00 - 11:00 AM</item>
+         <item>11:00 - 12:00 PM</item>
+         <item>12:00 - 1:00 PM</item>
+         <item>1:00 - 2:00 PM</item>
+         <item>2:00 - 3:00 PM</item>
+         <item>3:00 - 4:00 PM</item>
+         <item>4:00 - 5:00 PM</item>
+         <item>5:00 - 6:00 PM</item>
+         <item>6:00 - 7:00 PM</item>
+         <item>7:00 - 8:00 PM</item>
+    </string-array>
+    
+
+</resources>
